@@ -9,12 +9,33 @@
     
   <script type="module" crossorigin src="/goit-js-hw-10-1/commonHelpers2.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10-1/assets/modulepreload-polyfill-ec808ebb.js">
-  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/styles-77da101c.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10-1/assets/vendor-651d7991.js">
+  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/vendor-80d0dc0f.css">
+  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/styles-848a93f2.css">
 </head>
 
 <body>
     <div class="container">
+        <form class="form">
+            <label>
+                Delay (ms)
+                <input type="number" name="delay" required />
+            </label>
 
+            <fieldset>
+                <legend>State</legend>
+                <label>
+                    <input type="radio" name="state" value="fulfilled" required />
+                    Fulfilled
+                </label>
+                <label>
+                    <input type="radio" name="state" value="rejected" required />
+                    Rejected
+                </label>
+            </fieldset>
+
+            <button type="submit">Create notification</button>
+        </form>
     </div>
     
 </body>

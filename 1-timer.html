@@ -9,12 +9,34 @@
     
   <script type="module" crossorigin src="/goit-js-hw-10-1/commonHelpers.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10-1/assets/modulepreload-polyfill-ec808ebb.js">
-  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/styles-77da101c.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10-1/assets/vendor-651d7991.js">
+  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/vendor-80d0dc0f.css">
+  <link rel="stylesheet" href="/goit-js-hw-10-1/assets/styles-848a93f2.css">
 </head>
 
 <body>
     <div class="container">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start>Старт</button>
 
+        <div class="timer">
+            <div class="field">
+                <span class="value" data-days>00</span>
+                <span class="label">Днів</span>
+            </div>
+            <div class="field">
+                <span class="value" data-hours>00</span>
+                <span class="label">Годин</span>
+            </div>
+            <div class="field">
+                <span class="value" data-minutes>00</span>
+                <span class="label">Хвилин</span>
+            </div>
+            <div class="field">
+                <span class="value" data-seconds>00</span>
+                <span class="label">Секунд</span>
+            </div>
+        </div>
     </div>
     
 </body>
