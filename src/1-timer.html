@@ -11,7 +11,27 @@
 
 <body>
     <div class="container">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start>Старт</button>
 
+        <div class="timer">
+            <div class="field">
+                <span class="value" data-days>00</span>
+                <span class="label">Днів</span>
+            </div>
+            <div class="field">
+                <span class="value" data-hours>00</span>
+                <span class="label">Годин</span>
+            </div>
+            <div class="field">
+                <span class="value" data-minutes>00</span>
+                <span class="label">Хвилин</span>
+            </div>
+            <div class="field">
+                <span class="value" data-seconds>00</span>
+                <span class="label">Секунд</span>
+            </div>
+        </div>
     </div>
     <script type="module" src="./js/1-timer.js"></script>
 </body>

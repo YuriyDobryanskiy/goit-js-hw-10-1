@@ -1,0 +1,36 @@
+.container{
+    font-size: 14px;
+    line-height: 18px;
+}
+#datetime-picker{
+    border: 1px solid #c3c3c3;
+    height: 26px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+.container>button{
+    height: 26px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.timer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    text-align: center;
+}
+.field .value{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.field .label{
+    text-transform: capitalize;
+}
